@@ -63,3 +63,22 @@ x = bytearray(5)	bytearray
 x = memoryview(bytes(5))	memoryview
 
 '''
+
+# Getting the Data Type with type() function
+
+x = "Hello python lover"
+
+print(type(x))
+
+# Setting the Data Type. the data type is set when you assign a value to a variable
+
+y = "Hello Bangladesh"
+
+print(type(y))
+
+
+# Setting the Specific Data Type
+
+z = str("Hello world")
+
+print(type(z))
